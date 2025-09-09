@@ -123,10 +123,6 @@ realpath_safe() {
 		realpath "$path"
 	elif command -v grealpath >/dev/null 2>&1; then
 		grealpath "$path"
-	elif command -v python3 >/dev/null 2>&1; then
-		python3 -c "import os,sys; print(os.path.abspath(sys.argv[1]))" "$path"
-	elif command -v python >/dev/null 2>&1; then
-		python -c "import os,sys; print(os.path.abspath(sys.argv[1]))" "$path"
 	else
 		readlink -f "$path" 2>/dev/null || {
 			log_error "No suitable realpath implementation found"

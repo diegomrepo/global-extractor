@@ -15,6 +15,16 @@ The script extracts root-level statements (eg function and class definitions) fr
 
 Just copy the `ext.sh` file to a directory in your PATH and make it executable.
 
+## OS Support
+
+The script is designed to work on Unix-like systems and has been tested on:
+
+- **Linux**
+- **macOS**
+- **Windows Subsystem for Linux (WSL)** (not tested but should work)
+
+[jq](https://stedolan.github.io/jq/) is a dependency.
+
 ## Usage
 
 ```bash
