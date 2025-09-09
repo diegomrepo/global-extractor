@@ -11,6 +11,10 @@ The script extracts root-level statements (eg function and class definitions) fr
 - Supports a wide range of languages via a configurable extension list.
 - Processes single files or entire directories.
 
+## Installation
+
+Just copy the `ext.sh` file to a directory in your PATH and make it executable.
+
 ## Usage
 
 ```bash
@@ -62,3 +66,9 @@ The script uses a configuration directory located at `$XDG_CONFIG_HOME/global-ex
 
 -   `ext.json`: A JSON file where keys are the file extensions (e.g., "go", "py") that the script should process.
 -   `ext.ignore`: A global ignore file with patterns similar to `.gitignore`.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Copyright (c) 2025 Diego Marfil.
+
