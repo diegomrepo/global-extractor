@@ -1,0 +1,359 @@
+
+*~
+.*
+._*
+*$py.class
+*.a
+.apdisk
+*.app
+.AppleDB
+.AppleDesktop
+.AppleDouble
+atlassian-ide-plugin.xml
+*.bak
+berni
+bernie
+bin/
+# Binaries for programs and plugins
+bin/golangci-lint
+bin/go-test-watch
+bower_components
+bower_components/
+/build
+build/
+# Build and Compilation
+/build/includes/*.h
+build/Release
+/build/tools/mconfig-gen
+.cache
+/captures
+Cargo.lock
+# C/C++
+cf
+*.class
+.classpath
+.cloudformation/build
+.cloudformation/config/local-*.js
+cmake-build-debug/
+*.cmd
+cmd/experiment
+cmd/service/__debug_bin
+cmd/test
+.com.apple.timemachine.donotpresent
+com_crashlytics_export_strings.xml
+!competitiveAnalysis.js.bak
+!competitive_last_session.log
+configuration*
+# Configuration
+*.conf.js
+*.conf.ts
+cookies*
+.cover/
+.coverage
+coverage
+coverage/
+coverage.xml
+crashlytics-build.properties
+crashlytics.properties
+# Created by .ignore support plugin (hsz.mobi)
+*.ctxt
+custom/config/
+# Custom stuff
+.cxx
+*.d
+*.db
+Debug/
+# Debug files
+decrypted/
+# Dependencies
+develop-eggs/
+.directory
+dist/
+dkms.conf
+*.dll
+/doc/
+/doc/manpages/*.5
+/doc/manpages/*.8
+/doc/manpages/html/*
+/docs/_site/
+# Documentation
+.DocumentRevisions-V100
+downloads/
+.DS_Store
+.DS_Store?
+*.dSYM/
+*.dylib
+.dynamodb/
+*.ear
+*_easyjson.go
+*_easyjson.go.*
+*easyjson-*.go
+*.egg
+*.egg-info/
+.eggs/
+eggs/
+ehthumbs.db
+*.elf
+.env
+env/
+ENV/
+.env.*.local
+.env.local
+error*png
+.eslintcache
+eslint-report.json
+example_extension/logs/
+example_extension/packages/
+*.exe
+*.exe~
+# Executables
+*.exp
+.externalNativeBuild
+fabric.properties
+.fseventsd
+.fusebox/
+.fuse_hidden*
+*.gch
+# Generated man pages:
+geodb/
+.git
+.git-env
+!.githooks/
+.go/
+# Go
+.golangci-lint-args
+.golang-version
+go.work
+.gradle
+.gradle/
+.grunt
+*.hex
+hs_err_pid*
+htmlcov
+htmlcov/
+*.i*86
+Icon
+*.idb
+.idea
+.idea/
+/.idea/assetWizardSettings.xml
+/.idea/caches
+/.idea/libraries
+.idea_modules/
+/.idea/modules.xml
+.idea/**/mongoSettings.xml
+/.idea/navEditor.xml
+# IDE and Editor files
+.idea/replstate.xml
+/.idea/workspace.xml
+*.ilk
+*.img
+*.img*
+*.iml
+.importjs.js
+/inf-template-service.iml.idea
+.installed.cfg
+# Integration test output:
+*/.ipynb_checkpoints/*
+.ipynb_checkpoints
+*.iws
+*.jar
+# Java
+.jekyll-cache/
+.jekyll-metadata
+*.jsc
+*.js.map
+jspm_packages/
+# Jupyter Notebooks
+# Kernel Module Compile Results
+*.ko
+*.la
+*.lib
+lib/
+lib64/
+lib-cov
+# Libraries
+# Linker output
+*.lo
+/local.properties
+local.properties
+.lock-wscript
+!*log
+*.log
+logs
+logs/
+# Logs and Databases
+.LSOverride
+*.lua~
+# Lua
+luac.out
+!.mailmap
+*.map
+/mconfig
+menu/__pycache__/
+*.min.js
+Mkfile.old
+mnt/
+moc_*.cpp
+*.mod*
+modules.order
+Module.symvers
+.mtj.tmp/
+.mypy_cache/
+*.nar
+Network Trash Folder
+.next
+.nfs*
+!node_modules
+!node_modules/
+node_modules
+node_modules/
+.node_repl_history
+.npm
+npm-debug.log*
+.nuxt
+.nyc_output
+*.o
+*.obj
+obj/
+# Object files
+old/
+*.orig
+*.out
+*_out.*
+out
+out/
+# Output of the go coverage tool, specifically when used with LiteIDE
+package-lock*
+package-lock.json
+packages/
+.parcel-cache
+parts/
+*.pch
+*.pdb
+*.pid
+*.pid.lock
+pids
+pkgmngt/packageManager.xml
+pkgmngt/packInstall.sh
+*.png
+.pnp
+.pnp.js
+pnpm-lock.yaml
+# Precompiled Headers
+# Prerequisites
+.profile/
+.project
+*.pro.user*
+__pycache__/
+*.py[cod]
+.pytest_cache
+.pytest_cache/
+# Python
+.Python
+.python-version
+*.qm
+*.qmlc
+qrc_*.cpp
+# Qt
+*.rar
+*.rdb
+.reflex
+Release/
+replay_pid*
+reports
+report-task.txt
+request.json
+results
+**/*.rs.bk
+# Rust
+sdist/
+sealights/
+*.seed
+.serverless/
+.settings/
+# Shared objects (inc. Windows DLLs)
+#*.sh  # we need bash scripts!
+/_site/
+*.so
+*.so.*
+.sonar_lock
+.Spotlight-V100
+*.sql
+*.sqlite
+*.sqlite3
+/src/**/*.d
+/src/dinit
+/src/dinitcheck
+/src/dinitctl
+/src/dinit-monitor
+/src/igr-tests/igr-output
+/src/igr-tests/igr-runner
+/src/igr-tests/*/output/**
+/src/igr-tests/reload1/sd
+/src/igr-tests/reload2/sd
+!/src/igr-tests/xdg-config/config/dinit.d/
+!src/**/logs
+/src/shutdown
+/src/tests/cptests/corpus
+/src/tests/cptests/cptests
+/src/tests/cptests/fuzz
+/src/tests/envtests
+/src/tests/loadtests
+/src/tests/proctests
+/src/tests/tests
+.structurizr/
+# Structurizr
+*.su
+*.sublime-project
+*.sublime-workspace
+*.swo
+*.swp
+/target/
+target/
+*.tar.gz
+*.temp
+# Temporary files
+.TemporaryItems
+Temporary Items
+.tern-port
+*.test
+# Test binary, built with `go test -c`
+# Test Coverage
+__tests__/out.json/
+*.tgz
+Thumbs.db
+*.tmp
+/tmp
+tmp
+tmp/
+tmp-files/
+.tmp_versions/
+.Trash-*
+.Trashes
+*.tsbuildinfo
+[Tt]humbs.db
+# TypeScript/JavaScript
+typings/
+ui_*.h
+var/
+/vendor/
+.venv
+venv
+venv/
+.VolumeIcon.icns
+.vscode
+.vscode/
+.vuepress/dist
+*.war
+web_modules/
+wheels/
+workspace.json
+x64/
+x86/
+*.x86_64
+yarn-debug.log*
+yarn-error.log*
+.yarn-integrity
+yarn.lock
+*.zip
